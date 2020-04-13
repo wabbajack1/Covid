@@ -12,8 +12,8 @@ while True:
                 "name":"turkey"}
 
   headers = {
-      'x-rapidapi-host': "covid-19-data.p.rapidapi.com",
-      'x-rapidapi-key': "e720e708fbmsh4d5fe7b2bc05716p1fd22bjsn01963d5b35a3"
+      'x-rapidapi-host': "host",
+      'x-rapidapi-key': "key"
       }
 
   response = requests.request("GET", url, headers=headers, params=querystring)
